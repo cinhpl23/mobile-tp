@@ -91,4 +91,8 @@ class QuestionData {
     return questionList[questionNumber].explanation;
   }
 
+  void reset() {
+    questionNumber = 0;
+  }
 }
+
